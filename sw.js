@@ -16,5 +16,5 @@ self.addEventListener('push',function(e){
         };
         e.waituntill(
         self.registration.sendNotification('Hello World!',options)
-        );
+        )
 });
